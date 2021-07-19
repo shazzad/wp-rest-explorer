@@ -1,0 +1,9 @@
+{
+	"name": "shazzad/wp-rest-explorer",
+	"description": "Visualize wp rest api endpoint.",
+	"autoload": {
+		"psr-4": {
+			"Shazzad\\WP_Rest_Explorer\\": "src/"
+		}
+	}
+}

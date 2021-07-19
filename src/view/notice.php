@@ -1,0 +1,1 @@
+<div class="wpre-api-docs-notice"><?php echo $notice; ?>
