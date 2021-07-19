@@ -7,7 +7,7 @@
                 continue;
             }
 
-            $route_key = \WP_Rest_Explorer\Rest_Explorer::sanitize_route_key( $base_path );
+            $route_key = \Shazzad\WP_Rest_Explorer\Rest_Explorer::sanitize_route_key( $base_path );
 
             include dirname( __FILE__ ) . '/route.php';
         }
