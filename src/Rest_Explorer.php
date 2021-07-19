@@ -12,7 +12,7 @@ class Rest_Explorer {
 
 	public static function register_scripts() {
 		$min = '';
-		$base_url = plugin_dir_url( __FILE__ );
+		$base_url = dirname( plugin_dir_url( __FILE__ ) );
 
 		wp_register_script( 'wpre-wp-rest-explorer', $base_url . 'assets/js/wp-rest-explorer' . $min . '.js', array( 'jquery' ), WPSA_VERSION, true );
 		wp_register_style( 'wpre-wp-rest-explorer', $base_url . 'assets/css/wp-rest-explorer' . $min . '.css', array(), WPSA_VERSION );
