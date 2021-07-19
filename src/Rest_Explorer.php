@@ -4,7 +4,7 @@
  *
  * @package ServedAdmin
  */
-namespace WP_Rest_Explorer;
+namespace Shazzad\WP_Rest_Explorer;
 
 use WP_Error;
 
